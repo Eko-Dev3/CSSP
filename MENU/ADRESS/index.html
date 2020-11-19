@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADRESS</title>
+    <link rel="stylesheet" href="/PRIN/cssp.css">
+
+    <!-- ICON MOON -->
+    <link rel="stylesheet" href="/ICONS/style.css">
+    <!-- MATERIAL ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+    <!-- FONT-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <!-- menu fixed -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="/IMG/LOGO/CSSP LOGO ok 2.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/PRIN/index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="icon-home">MENU</i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/PRIN/index.html">ACUEIL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/MENU/ADMISSION/">ADMISSION</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/MENU/FORMATION/index.html">FOTMATION</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- info -->
+    <div id="info">
+        <span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>info</span>
+        <marquee behavior="" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias, similique tempore eius explicabo provident officiis praesentium doloribus veniam alias commodi delectus labore inventore autem illo fuga itaque aliquid laboriosam?</marquee>
+
+    </div>
+    <!-- end -->
+    <div id="time">
+
+        <div class="date">
+            <span id="weekDay" class="weekDay"></span>,
+            <span id="day" class="day"></span> de
+            <span id="month" class="month"></span> del
+            <span id="year" class="year"></span>
+        </div>
+        <div class="clock">
+            <span id="hours" class="hours"></span> :
+            <span id="minutes" class="minutes"></span> :
+            <span id="seconds" class="seconds"></span>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- end -->
+
+
+
+</header>
+
+<!-- back -->
+<div id="main-back">
+    <img src="" alt="">
+    <div id="tex">
+        <h1>LOREM IPSUN</h1>
+    </div>
+</div>
+<style>
+    #main-back {
+        background-image: url(/IMG/back/adress.jpg);
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+    }
+</style>
+<h1>CONTACTEZ NOUS</h1>
+<div id="contact">
+
+
+    <style>
+        #contact {
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            padding: 10px;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            #contact {
+                flex-wrap: wrap;
+            }
+        }
+        
+        form {
+            width: 50%;
+            align-items: center;
+            background: whitesmoke;
+            margin-bottom: 2em;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            #contact {
+                flex-wrap: wrap;
+            }
+            form {
+                width: 100%;
+                align-items: center;
+                background: whitesmoke;
+                margin-bottom: 2em;
+            }
+        }
+        
+        #exampleFormControlSelect1 option {
+            width: 100%;
+        }
+        
+        #button {
+            color: blue;
+            font-weight: bold;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        
+        #reset {
+            color: red;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            font-weight: 800;
+        }
+    </style>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Nom et prenom</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Eko Bindang " r>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="cssp@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Sélectionnez votre demande</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            
+        <option>question et duotes</option>
+        <option>Clarificacion</option>
+        <option>cycles de formations</option>
+        <option>Autre...</option>
+       
+      </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <input type="submit" onclick="return enviando();" id="button" value="envoyé">
+        <input type="reset" id="reset" value="efacer ">
+    </form>
+
+
+
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.7845232032823!2d-3.9872605999999986!3d5.299661200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ec007b38dee7%3A0x0!2zNcKwMTcnNTguOCJOIDPCsDU5JzE0LjEiVw!5e1!3m2!1ses!2sci!4v1605470552277!5m2!1ses!2sci "
+            width="100% " height="300px " frameborder="0 " style="border:0; " allowfullscreen=" " aria-hidden="false " tabindex="0 "></iframe>
+    </div>
+
+    <style>
+        #mapa {
+            width: 60%;
+            padding-left: 10px;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            #mapa {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</div>
+
+
+
+<!-- ooter section -->
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark ">
+
+    <div style="background-color: #100457; ">
+        <div class="container ">
+
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center ">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
+                    <h6 class="mb-0 ">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- ESTILOS COLORES ICONOS -->
+                <style>
+                    .mb-0 {
+                        color: white;
+                    }
+                    
+                    .col-md-6 i {
+                        font-size: 20px;
+                    }
+                    
+                    .col-md-6 .icon-facebook {
+                        color: white;
+                    }
+                    
+                    .col-md-6 .icon-whatsapp {
+                        color: green;
+                    }
+                    
+                    .col-md-6 .icon-telegram {
+                        color: rgb(132, 132, 240);
+                    }
+                    
+                    .col-md-6 .icon-instagram {
+                        color: crimson;
+                    }
+                    
+                    .col-md-6 .icon-twitter {
+                        color: rgb(76, 76, 241);
+                    }
+                </style>
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right ">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic ">
+                        <i class="icon-facebook white-text mr-4 "></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic ">
+                        <i class="icon-telegram white-text mr-4 "> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic ">
+                        <i class="icon-twitter white-text mr-4 "> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic ">
+                        <i class="icon-whatsapp white-text mr-4 "> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic ">
+                        <i class="icon-instagram "> </i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5 ">
+
+        <!-- Grid row -->
+        <div class="row mt-3 ">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+
+                <!-- Content -->
+                <h6 class="text-uppercase font-weight-bold ">CSSP MARCORY</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+                <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 " style="display: none;">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold ">Products</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+                <p>
+                    <a href="#! ">MDBootstrap</a>
+                </p>
+                <p>
+                    <a href="#! ">MDWordPress</a>
+                </p>
+                <p>
+                    <a href="#! ">BrandFlow</a>
+                </p>
+                <p>
+                    <a href="#! ">Bootstrap Angular</a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold ">FORMATION</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+                <p>
+                    <a href="#! ">BTS/DUT <span>BAC +2</span></a>
+                </p>
+                <p>
+                    <a href="#! ">LICENCE PRO <span>BAC +3</span> </a>
+                </p>
+                <p>
+                    <a href="#! ">MASTER 1 & 2 <span>BAC +4/+5</span></a>
+                </p>
+                <p>
+                    <a href="#! ">F.Q </a>
+                </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+
+                <!-- Links -->
+                <h6 class="text-uppercase font-weight-bold ">Contact</h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
+                <p>
+                    <i> <svg width="1em " height="1em " viewBox="0 0 16 16 " class="bi bi-geo-alt " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                            <path fill-rule="evenodd " d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008
+            1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z "/>
+                            <path fill-rule="evenodd " d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
+                          </svg></i> ABIDJAN CI</p>
+                <p>
+                    <i> <svg width="1em " height="1em " viewBox="0 0 16 16 " class="bi bi-envelope-fill " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                            <path fill-rule="evenodd " d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16
+            11.801V4.697l-5.803 3.546z "/>
+                          </svg></i> <a href="mailto: abc@example.com ">cssp@gmail.com</a></p>
+                <p>
+                    <i> <svg width="1em " height="1em " viewBox="0 0 16 16 " class="bi bi-telephone-inbound-fill " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                            <path fill-rule="evenodd " d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306
+            1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5
+            0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z "/>
+                          </svg></i> <a href="tel:+22588904020 " style="text-decoration: none; font-size: 15pt; ">+22588904020</a> <br>
+
+                    <i> <a href="tel:+22588904020 " style="text-decoration: none; font-size: 15pt; ">+22588904020</a></p>
+
+                    <p>
+                        <span><svg width="1em " height="1em " viewBox="0 0 16 16 " class="bi bi-person-circle " fill="currentColor " xmlns="http://www.w3.org/2000/svg ">
+                            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z "/>
+                            <path fill-rule="evenodd " d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z "/>
+                            <path fill-rule="evenodd " d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z "/>
+                          </svg></span></i>
+                    <a href="https://twitter.com/home ">DEVELOPPEUR</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 "> &copy; CSSP-2020
+
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+<!-- LIBRERIA AJAX -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js "></script>
+
+
+
+
+<!-- botstrap  SCRIPT-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js " integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s " crossorigin="anonymous "></script>
+
+
+<!-- script -->
+<script src="/PRIN/main.js "></script>
+</body>
+
+</html>
+
+</html>

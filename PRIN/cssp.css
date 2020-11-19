@@ -1,0 +1,345 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+/* loader */
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid red;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar-brand img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+
+/* info */
+
+#info {
+    background: red;
+    height: 40%;
+    padding: 2px;
+}
+
+marquee {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#info span {
+    background: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+/* menu and data time */
+
+
+/* data time */
+
+#time {
+    background: whitesmoke;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* END */
+
+#menu-main ul {
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    float: right;
+    margin-right: 1em;
+}
+
+#menu-main li {
+    margin: 10px;
+    list-style: none;
+}
+
+#menu-main a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 999px) {
+    #menu-main ul {
+        display: none;
+    }
+}
+
+.container {
+    padding: 10px 15px;
+}
+
+.carousel-inner {
+    z-index: 1000;
+}
+
+
+/* CAROUSEL */
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* animation */
+
+.carousel-caption h5 {
+    color: blue;
+    font-weight: 900;
+    font-size: 40px;
+    animation: bounceInDown;
+    animation-duration: 3s;
+    margin-bottom: 1em;
+}
+
+
+/* Animation delays */
+
+.carousel-caption h3:first-child {
+    animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.carousel-caption button {
+    animation-delay: 5s;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p {
+    padding-top: 125px;
+    text-align: center;
+}
+
+.p a {
+    text-decoration: underline;
+}
+
+
+/* ECOLE */
+
+
+/*  */
+
+#cont-prtn {
+    transition: all 4s ease-in-out;
+}
+
+#ecole {
+    padding-left: 4px;
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+    border-left: 6px solid blue;
+}
+
+#sect-acueil {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#sect-acueil img {
+    width: 40%;
+    max-width: 30%;
+    padding-left: 4px;
+    margin: 10px;
+}
+
+#sect-acueil p {
+    padding: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    #sect-acueil {
+        flex-wrap: wrap;
+    }
+    #ecole {
+        text-align: left;
+        color: red;
+    }
+}
+
+#sect-mission {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#sect-mission img {
+    width: 40%;
+    max-width: 30%;
+    padding-left: 4px;
+}
+
+#sect-mission p {
+    padding: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    #sect-mission {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* admin conseil */
+
+#cnsam h1 {
+    text-align: left;
+    border-left: 6px solid red;
+    font-size: 15px;
+}
+
+#cdadminist {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#cdadminist #admin {
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #cdadminist {
+        flex-wrap: wrap;
+    }
+}
+
+#cdadminist h2 {
+    font-size: 10px;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+}
+
+#cdadminist p {
+    overflow: hidden;
+}
+
+#cdadminist #admin img {
+    width: 50px;
+}
+
+
+/* partenaira */
+
+#partenaira-container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#partenaira-container h1 {
+    font-size: 20px;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    #partenaira-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* #partenaira-container {
+flex-wrap: wrap;
+} */
+
+#partenaira-container img {
+    width: 30px;
+    margin: 20px;
+}
+
+
+/* phothoteque */
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.album img {
+    max-width: 50%;
+}
+
+#photo {
+    background: red;
+    box-shadow: 1px 1px 1px 1px black;
+    border-bottom: 2px solid white;
+}
+
+#photo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
